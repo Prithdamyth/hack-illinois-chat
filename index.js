@@ -6,6 +6,8 @@ const app = express()
 app.use(bodyParser.json())
 app.use(session({secret: '7cb98f81-e35a-4ea0-9a39-7568197c0593'}))
 
+app.use(express.static('public'))
+
 app.post('/login', function (req, res) {
   if (!req.body || !req.body.name) {
     res.send(500, {error: 'must provide name for login'})
