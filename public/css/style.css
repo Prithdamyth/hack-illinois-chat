@@ -1,8 +1,36 @@
 
-email, username{
-    width:200px;
+body
+{
+    background-image: url("blackblue.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 
-body{
-    background-color: red; 
+h1
+{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 75px
 }
+h2
+{
+    text-align: center;
+    color: rgb(48, 48, 48);
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+
+}
+button {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    font-size: 15px;
+    transition-duration: 0.4s;
+    padding: 10px 32px;  /* changes button size */
+    border: 2px solid #000000;
+  }
+  
+button:hover {
+    background-color: rgb(197, 29, 29); /* Green */
+    color: white;
+  }
