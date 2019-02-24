@@ -10,7 +10,6 @@ body
 h1
 {
     text-align: center;
-<<<<<<< HEAD
     color: rgb(255, 255, 255);
     text-shadow: 5px 5px rgb(190, 0, 0);
     font-size: 70px;
@@ -19,31 +18,20 @@ h1
     font-weight: bold;
     font-variant-caps: all-small-caps;
 
-=======
-    color: rgb(0, 0, 0);
-    font-size: 75px
->>>>>>> b556fc2016585885f52f7c6404b5eb6c158c0e69
 }
 h2
 {
     text-align: center;
     color: rgb(48, 48, 48);
     font-size: 25px;
-<<<<<<< HEAD
     font-family: 'Arial', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: italic;
     font-variant: small-caps;
     
-=======
-    font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
-
->>>>>>> b556fc2016585885f52f7c6404b5eb6c158c0e69
 }
 button {
     -webkit-transition-duration: 0.4s; /* Safari */
     font-size: 15px;
-<<<<<<< HEAD
     font-family: 'Arial', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-variant-caps: all-small-caps;
     transition-duration: 0.4s;
@@ -53,14 +41,5 @@ button {
   
 button:hover {
     background-color: rgb(206, 30, 30); /* Red */
-=======
-    transition-duration: 0.4s;
-    padding: 10px 32px;  /* changes button size */
-    border: 2px solid #474545;
-  }
-  
-button:hover {
-    background-color: rgb(206, 30, 30); /* Green */
->>>>>>> b556fc2016585885f52f7c6404b5eb6c158c0e69
     color: white;
   }
