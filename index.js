@@ -18,8 +18,8 @@ app.post('/login', function (req, res) {
 })
 
 app.get('/whoami', function (req, res) {
-  const name = req.session.name || 'Anonymous'
-  res.send({name})
+  const logname = req.session.name || 'Anonymous'
+  res.send({name: logname})
 })
 
 app.post('/message', function (req,res) {
